@@ -4,4 +4,3 @@ CI = "npm run build"
 [[redirects]]
 from = "/*"
 to = "/htmtail.html"
-status = 200
