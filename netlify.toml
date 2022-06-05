@@ -1,0 +1,3 @@
+[build]
+base = "movie-selector-app"
+CI = "npm run build"
