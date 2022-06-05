@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 105%;
+}
+.menu-container {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 5px;
+  align-items: center;
+}
+.list-c {
+  width: 100%;
+  padding: 10px;
+}
+.align {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.anotherli {
+  margin-right: 74px;
+  background-color: #ff4f5a;
+  width: 112px;
+  padding: 5px;
+  border: 2px solid #ff4f5a;
+  border-radius: 11px;
+  color: #fff;
+}
+.sidebar {
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.classimg {
+  width: 500px;
+}
+
+.ph1 {
+  width: 21%;
+  padding: 36px;
+  text-align: center;
+}
+.ph1 h2 {
+  padding: 15px;
+}
+.buttom {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+.item2 {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #ff4f5a;
+  width: 112px;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid #ff4f5a;
+  border-radius: 11px;
+}
+.sidebar2 {
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-right: 76px;
+}
+.text2 {
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+}
+.ph2 {
+  width: 58.5%;
+  padding: 36px;
+  text-align: center;
+}
+.img22 {
+  width: 500px;
+}
+.insidedivparent {
+  display: flex;
+  justify-content: center;
+}
+.buttom2 {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+
+.item3 {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #ff4f5a;
+  width: 112px;
+  padding: 5px;
+  color: #fff;
+  border: 2px solid #ff4f5a;
+  border-radius: 11px;
+}
+.inside-div h1 {
+  font-weight: normal;
+}
+
+.inside-div {
+  text-align: center;
+  margin-top: 10px;
+  width: 21%;
+  font-size: 11px;
+  border: 2px solid #385a64;
+  padding: 14px;
+  color: #fff;
+  background-color: #385a64;
+  border-radius: 22px;
+}
+.inside-div h6 {
+  font-weight: 500;
+  font-size: 15px;
+}
+.inside {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  text-align: center;
+}
+.insidelast {
+  margin: 10px;
+  margin-top: 15px;
+  display: flex;
+
+  width: 64%;
+}
+.card h3 {
+  margin-bottom: 7px;
+}
+.inside-blue {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.inside-b1 {
+  text-align: center;
+  width: 17%;
+}
+.inside-b2 {
+  width: 17%;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+}
+.img3 img {
+  width: 500px;
+}
+.cardinside {
+  margin: 10px;
+  margin-top: 15px;
+  display: flex;
+  width: 64%;
+  justify-content: center;
+}
+.card1 {
+  text-align: center;
+}
+.cardinsideparent {
+  display: flex;
+  justify-content: center;
+}
+.listblue {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+}
+.list-blue {
+  font-family: "Font Awesome 5 Brands";
+  width: 133px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.seckol {
+  background-color: #ff4f5a;
+  color: #fff;
+}
+@media screen and (max-width: 922px) {
+  .classimg {
+    width: 100%;
+  }
+  .classimg2 {
+    width: 100%;
+  }
+  .img3 img {
+    width: 100%;
+  }
+  .img22 {
+    width: 100%;
+  }
+  .sidebar {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sidebar2 {
+    margin: 0 auto;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .ph1 {
+    width: 54%;
+  }
+  .text2 {
+    text-align: center;
+    width: 54%;
+  }
+  .insidedivparent {
+    width: 100%;
+  }
+  .inside {
+    width: 100%;
+  }
+  .list-blue {
+    width: 100%;
+  }
+  .listblue {
+    width: 100%;
+  }
+  .inside-blue {
+    width: 100%;
+  }
+  .insidelast {
+    flex-wrap: wrap-reverse;
+    width: 25%;
+    align-items: center;
+  }
+}
