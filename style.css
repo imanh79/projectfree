@@ -197,7 +197,7 @@
 }
 .listblue {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
   font-size: 10px;
   font-weight: 700;
