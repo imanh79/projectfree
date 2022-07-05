@@ -1,0 +1,139 @@
+@media (max-width: 1600px) {
+  .sideindex__title {
+    font-size: 4rem;
+  }
+  .cardspan1,
+  .cardspan2,
+  .cardspan4,
+  .cardspan3 {
+    margin-top: 3rem;
+  }
+  .wraper-mobile {
+    display: none;
+  }
+  .w-mains {
+    padding-left: 17rem;
+    padding-top: 15rem;
+  }
+  .wraper-mains__title {
+    font-size: 6.5rem;
+  }
+  .secwraper__main {
+    text-align: center;
+    width: 33rem;
+  }
+  .secwraper__imgorg {
+    width: 33rem;
+  }
+  .secwraper__but {
+    width: 14.5rem;
+  }
+  .wraper__list {
+    display: flex;
+  }
+  .wraperbtn {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .w-mains {
+    padding-left: 10rem;
+    padding-top: 15rem;
+  }
+}
+@media (max-width: 992px) {
+  .secwraper__cap {
+    width: 27rem;
+  }
+  .cardspan2 {
+    margin-top: 8rem;
+  }
+  .cardspan4 {
+    margin-top: 8rem;
+  }
+  .cardbar4 > .cardbar__title {
+    padding-top: 4rem;
+  }
+  .cardbar2 > .cardbar__title {
+    padding-top: 4rem;
+  }
+  .cardbar__tcap {
+    padding-left: 3rem;
+  }
+  .cardall3 {
+    margin-top: 5rem;
+  }
+  .cardbar__title {
+    margin-left: 3rem;
+  }
+  .wraper-mobile {
+    display: block;
+    left: -25rem;
+  }
+  .sideindex__cap {
+    margin: 0 auto;
+  }
+  .wraper__list {
+    display: none;
+  }
+  .w-mains {
+    width: 44rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+  }
+  .wraperbtn {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .secwraper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .secwraper__but {
+    margin: 0 auto;
+  }
+  .secwraper__main {
+    text-align: center;
+    width: 33rem;
+  }
+  .wraper-mains__title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 576px) {
+  .w-mains {
+    width: 26rem;
+    padding-bottom: 4rem;
+  }
+  .secwraper__main {
+    text-align: center;
+    width: 100%;
+  }
+  .secwraper__imgorg {
+    width: 16rem;
+  }
+  .secwraper__but {
+    width: 8rem;
+  }
+}
+@media (max-width: 448px) {
+  .footer-box1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .footer-box2 {
+    margin-bottom: 3rem;
+  }
+  .footer-box3 {
+    margin-bottom: 3rem;
+  }
+  .sideindex__title {
+    font-size: 3rem;
+  }
+}

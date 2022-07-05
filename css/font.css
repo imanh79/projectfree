@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "minion bold";
+  src: url("../font/MinionPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "semibold";
+  src: url("../MinionPro-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "regular";
+  src: url("../font/ntailub.ttf") format("truetype");
+}
