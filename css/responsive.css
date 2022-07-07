@@ -2,9 +2,7 @@
   .menuprice {
     min-height: 140vh;
   }
-  .side-img {
-    min-height: 54rem;
-  }
+
   .sideindex__title {
     font-size: 4rem;
   }
@@ -59,9 +57,6 @@
   .menuprice {
     min-height: 296vh;
   }
-  .side-img {
-    min-height: 76rem;
-  }
 }
 @media (max-width: 992px) {
   .secwraper__but {
@@ -73,9 +68,7 @@
   .card {
     margin-top: 1rem;
   }
-  .side-img {
-    min-height: 132rem;
-  }
+
   .secwraper__cap {
     width: 27rem;
   }
@@ -122,9 +115,6 @@
   }
 }
 @media (max-width: 768px) {
-  .side-img {
-    min-height: 134rem;
-  }
   .secwraper {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -153,9 +143,6 @@
   .secwraper__but {
     width: 13rem;
   }
-  .side-img {
-    min-height: 134rem;
-  }
 }
 @media (max-width: 448px) {
   .footer-box1 {
@@ -171,17 +158,8 @@
   .sideindex__title {
     font-size: 3rem;
   }
-  .side-img {
-    min-height: 134rem;
-  }
 }
 @media (max-width: 408px) {
-  .side-img {
-    min-height: 142rem;
-  }
 }
 @media (max-width: 406px) {
-  .side-img {
-    min-height: 141rem;
-  }
 }
