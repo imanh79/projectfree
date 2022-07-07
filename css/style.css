@@ -234,7 +234,7 @@ a {
   color: #fff;
   background-color: #4aab00;
   padding: 1rem 2.5rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -273,7 +273,6 @@ a {
 
   background-position: center;
   background-size: cover;
-  object-fit: cover;
 }
 .sidecards {
   display: flex;
@@ -301,14 +300,13 @@ a {
   margin-top: 0.5rem;
 }
 .menuprice {
-}
-.menuprice__inside {
   background-image: url("../images/3444.png");
   width: 100%;
-  min-height: 108rem;
+  min-height: 140vh;
   background-position: center;
   background-size: cover;
-  object-fit: cover;
+}
+.menuprice__inside {
 }
 .menuprice__inside {
 }
@@ -446,7 +444,7 @@ a {
     ),
     url("../images/4444.png");
   width: 100%;
-  min-height: 54rem;
+  min-height: 54vh;
 
   background-position: center;
   background-size: cover;
