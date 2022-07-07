@@ -302,7 +302,7 @@ a {
 .menuprice {
   background-image: url("../images/3444.png");
   width: 100%;
-  min-height: 140vh;
+  min-height: 56vh;
   background-position: center;
   background-size: cover;
 }
@@ -353,6 +353,7 @@ a {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin-bottom: 6rem;
 }
 .cardall1 {
   display: flex;
