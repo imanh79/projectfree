@@ -89,8 +89,10 @@ header section
   font-weight: bold;
 }
 .header-title__h1 {
+  font-family: "vazir-bold";
 }
 .header-title__h2 {
+  font-family: "vazir-bold";
 }
 .header-sec__cap {
   text-align: center;
@@ -100,23 +102,27 @@ header section
   min-width: 37vh;
   padding-top: 1rem;
   line-height: 3rem;
+  font-family: "vazir-thin";
 }
 .header-buttons {
   text-align: center;
   margin-top: 1.5rem;
   padding-bottom: 5rem;
+  font-family: "vazir-medium";
 }
 .header-buttons1 {
   border: none;
+  font-family: "vazir-medium";
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0
     no-repeat padding-box;
   color: black;
-  font-weight: bold;
+
   margin-left: 0.3rem;
 }
 .header-buttons2 {
+  font-family: "vazir-medium";
   border: none;
   padding: 1rem 1rem;
   border-radius: 1rem;
@@ -162,15 +168,18 @@ header section
 .main-inside__span {
   color: #747480;
   font-size: 2.5rem;
+  font-family: "vazir-medium";
 }
 .main-inside__h2 {
+  font-family: "vazir-medium";
   text-align: right;
-  font-weight: bold;
-  font-size: 3rem;
+
+  font-size: 2.5rem;
   padding-right: 1rem;
   padding: 1rem 0px;
 }
 .main-inside__cap {
+  font-family: "vazir-thin";
   font-size: 1.5rem;
   text-align: justify;
   border-bottom: 1px solid #dfe1e4;
@@ -195,6 +204,7 @@ header section
   margin-left: 10px;
   cursor: pointer;
   white-space: nowrap;
+  font-family: "vazir-medium";
 }
 .main-buttons2 {
   background-color: rgba(232, 239, 254, 0.6);
@@ -212,6 +222,7 @@ header section
   cursor: pointer;
   white-space: nowrap;
   position: relative;
+  font-family: "vazir-medium";
 }
 /* .main-buttons2::after {
   content: url("../img/arrow-left-solid.svg");
@@ -230,15 +241,18 @@ header section
 .main-inside2__span {
   color: #747480;
   font-size: 2.5rem;
+  font-family: "vazir-medium";
 }
 .main-inside2__h2 {
-  font-weight: bold;
+  font-family: "vazir-medium";
+
   font-size: 3rem;
   padding-right: 1rem;
   padding: 1rem 0px;
   padding-right: 1rem;
 }
 .main-inside2__cap {
+  font-family: "vazir-thin";
   font-size: 1.5rem;
   text-align: justify;
   border-bottom: 1px solid #dfe1e4;
@@ -255,15 +269,17 @@ header section
 .main-inside3__span {
   color: #747480;
   font-size: 2.5rem;
+  font-family: "vazir-medium";
 }
 .main-inside3__h2 {
-  font-weight: bold;
+  font-family: "vazir-medium";
   font-size: 3rem;
   padding-right: 1rem;
   padding: 1rem 0px;
   padding-right: 1rem;
 }
 .main-inside3__cap {
+  font-family: "vazir-thin";
   font-size: 1.5rem;
   text-align: justify;
   border-bottom: 1px solid #dfe1e4;
@@ -278,18 +294,19 @@ header section
   margin-top: 5rem;
 }
 .main-inside4__span {
+  font-family: "vazir-medium";
   color: #747480;
   font-size: 2.5rem;
 }
 .main-inside4__h2 {
-  text-align: right;
-  font-weight: bold;
+  font-family: "vazir-medium";
   font-size: 3rem;
   padding-right: 1rem;
   padding: 1rem 0px;
   padding-right: 1rem;
 }
 .main-inside4__cap {
+  font-family: "vazir-thin";
   font-size: 1.5rem;
   text-align: justify;
   border-bottom: 1px solid #dfe1e4;
@@ -304,8 +321,9 @@ header section
   margin-top: 10rem;
 }
 .main-inside5__h2 {
+  font-family: "vazir-medium";
   text-align: right;
-  font-weight: bold;
+
   font-size: 3rem;
   padding-right: 1rem;
   padding: 1rem 0px;
@@ -314,6 +332,7 @@ header section
   text-align: center;
 }
 .main-inside5__cap {
+  font-family: "vazir-thin";
   font-size: 1.5rem;
   text-align: justify;
 }
@@ -340,12 +359,13 @@ header section
 .insidecard__span {
   padding-right: 1.5rem;
   font-size: 2rem;
-  font-weight: bold;
+  font-family: "vazir-medium";
 }
 .insidecard__img {
   width: 5rem;
 }
 .main-card__cap {
+  font-family: "vazir-thin";
   line-height: 2.5rem;
 }
 .main-card2 {
@@ -386,9 +406,10 @@ header section
 .main-sugguestion__h2 {
   font-size: 2.5rem;
   padding-bottom: 1rem;
-  font-weight: bold;
+  font-family: "vazir-medium";
 }
 .main-sugguestion__cap {
+  font-family: "vazir-thin";
   color: #747480;
 }
 .main-sugguestion__but {
@@ -400,7 +421,7 @@ header section
   background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0
     no-repeat padding-box;
   color: black;
-  font-weight: bold;
+  font-family: "vazir-medium";
 }
 
 /* }
@@ -415,22 +436,24 @@ header section
 }
 
 .main-last__span1 {
-  font-weight: bold;
   padding-top: 3rem;
   padding-bottom: 1.5rem;
+  font-family: "vazir-medium";
 }
 .main-last__span2 {
-  font-weight: bold;
+  font-family: "vazir-medium";
+
   padding-bottom: 2rem;
 }
 .main-last__span2 > i {
-  font-weight: bold;
+  font-family: "vazir-medium";
+
   color: #21457f;
   font-size: 1.8rem;
 }
 .main-last__span3 {
-  width: 14rem;
-
+  width: 15.5rem;
+  font-family: "vazir-medium";
   background-color: #fbf6f1;
   color: #21457f;
   margin-top: 17px;
@@ -466,9 +489,10 @@ header section
   justify-content: space-evenly;
 }
 .footer-span {
-  font-weight: bold;
+  font-family: "vazir-medium";
 }
 .footer-list {
+  font-family: "vazir-thin";
   list-style: none;
   padding-bottom: 0.5rem;
 }
@@ -496,6 +520,7 @@ header section
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
+  font-family: "vazir-medium";
 }
 .footer-ads {
   text-align: center;
@@ -542,6 +567,7 @@ header section
 }
 
 .footer__img-namad {
+  width: 15rem;
 }
 .footer__img--last {
   text-align: center;
@@ -551,4 +577,5 @@ header section
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 8rem;
+  font-family: "vazir-thin";
 }
