@@ -9,20 +9,51 @@
     <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="icon" sizes="16x16" href="img/16x16.png" />
+    <link rel="icon" sizes="16x16" href="img/16x16.png" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body>
     <header class="header">
+        
         <div class="container">
+            <div class="header-in-contain">
+            <div class="mobile-new">
+        <div class="mobile-menu ">
+            <div class="list__item1inside">
+            <li class="mobile-menu__list1">
+            <a href="" class="mobile-menu__esc"><i class="fa-regular fa-x" ></i></a></li>
+            <ul class="all-mobile-links">
+            <li class="mobile-menu__list2">
+            <a href="#" class="mobile-menu__link1">تعرفه‌ها</a></li><br>
+            <li class="mobile-menu__list3">
+            <a href="#" class="mobile-menu__link2">اپلیکیشن</a></li><br>
+            <li class="mobile-menu__list4">
+            <a href="#" class="mobile-menu__link3">سوالات متداول</a></li><br>
+            <li class="mobile-menu__list5">
+            <a href="#" class="mobile-menu__link4">محصولات</a></li><br>
+            <li class="mobile-menu__list6">
+            <a href="#" class="mobile-menu__link5">تماس با ما</a></li><br></ul>
+            <li class="mobile-menu__list7">
+            <a href="#" class="mobile-menu__link6">زرین‌پال من</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+            width: 1.2rem;
+            top: 25.5px;
+            right: 111px;
+            "><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></li><br></ul>
+        </div></div></div>
+       
+       
         <div class="header-contain">
       <div class="header-top">
         <img src="./img/logo-white.svg" alt="logo" class="header-top__menu-right"/>
-        <div class="menuleft">
-        <div class="haeder-top__menu-left"></div>
-        </div>
        
-         
-        </div></div>
+        
+       <img src="./img/icons8-menu-rounded-60.png" alt="" class="menuleft__icon-img"   
+      >
+       
+        
+       
+    </div>
+        </div></div> 
+        
         <div class="header-sec">
             <div class="header-sec__inside">
             <div class="header-title">
@@ -36,14 +67,16 @@
             </div>
             <p class="header-sec__cap">زرین‌پال، اولین پرداخت‌یار پیشگام کشور، با به‌کارگیری سبک و استانداردهای جدید در ارائه‌ی خدمات درگاه پرداخت اینترنتی، سرویس‌های متنوعی در حوزه‌ی پرداخت الکترونیک را برای کسب و کارها ارائه کرده است؛ با این هدف که در افزایش سهم تجارت الکترونیکی در تولید ناخالص ملی و کمک به رشد و توسعه‌ی کسب‌وکارها، نقش سازنده‌‌ای ایفا کند.</p>
             <div class="header-buttons">
-                <button class="header-buttons1">ثبت نام</button>
-                <button class="header-buttons2">ورود</button>
+                <button class="header-buttons1"><a href="#" class="header-buttons1__link">ثبت نام</a></button>
+                <button class="header-buttons2"><a href="#" class="header-buttons2__link"> ورود</a></button>
             </div>
         </div>
         </div>
+        
         <div class="imgshave">
-            <img src="./img/arrowbottom.svg" alt="">
-          
+            <a href="#main" class="imagshave__link"><svg xmlns="http://www.w3.org/2000/svg" width="1rem" viewBox="0 0 384 512" style="width: 1.5rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"/></svg></a>
+            <img src="./img/arrowbottom.svg" alt="logo">
+        
         </div>
       </div>
     </div>
@@ -51,14 +84,14 @@
     <main class="main">
         <div class="container">
     <div class="main_insideall">
-            <div class="main-inside1">
+            <div class="main-inside1" id="main">
                 <span class="main-inside__span">درگاه پرداخت اینترنتی</span>
                 <h2 class="main-inside__h2">مهندسی شده برای رشد و فروش بیش‌تر</h2>
                 <p class="main-inside__cap">درگاه پرداخت زرین‌پال، با اتصالِ همزمان به درگاه‌های متنوع و معتبر بانکی(PSPها)،کاربران را به سریع‌ترین و مطمئن‌ترین درگاه بانکی منتقل می‌کند و به واسطه‌ی قابلیت مسیردهی هوشمند، باعث افزایش درصد تراکنش‌های موفق می‌شود.</p>
           
             <div class="main-buttons">
-                <button class="main-buttons1">ساخت درگاه پرداخت</button>
-                <button class="main-buttons2">بیش‌تر بدانید.<svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+                <button class="main-buttons1"><a href="#" class="main-buttons1__link">ساخت درگاه پرداخت</a></button>
+                <button class="main-buttons2"><a href="#" class="main-buttons1__link">بیش‌تر بدانید.</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
                     width: 1.2rem;
                     top: 11px;
                     right: 10.4rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></button> </div>
@@ -68,8 +101,8 @@
                 <p class="main-inside2__cap">زرین‌‌کارت یک کارتِ بانکی عضو شبکه‌‌ی شتاب و متصل به یک حساب بانکی است که از تمام ویژگی‌‌ها و امکانات یک حساب بانکی تمام عیار برخوردار است. زرین‌‌کارت این امکان را برای کاربران خود فراهم می‌‌سازد تا از تعرفه‌‌ی کارمزد کم‌‌تر در روزهای عادی و کارمزد رایگان در سه‌‌شنبه‌‌های طلاییِ زرین‌‌پال بهره‌‌مند شوند.</p>
           
             <div class="main2-buttons">
-                <button class="main-buttons1">درخواست زرین‌کارت</button>
-                <button class="main-buttons2">بیش‌تر بدانید.<svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+                <button class="main-buttons1"><a href="#" class="main-buttons1__link"> درخواست زرین‌کارت</a></button>
+                <button class="main-buttons2"><a href="#" class="main-buttons1__link">بیش‌تر بدانید.</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
                     width: 1.2rem;
                     top: 11px;
                     right: 10.4rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></button> </div>
@@ -79,8 +112,9 @@
                 <p class="main-inside3__cap">تسهیم بهترین روش برای مدیریت مالی کسب‌ و کارهای شراکتی است که به واسطه‌ی آن، درآمد حاصل از فروش محصولات یا خدمات، در سهم‌های ثابت یا متغیر میان شرکای تجاری تقسیم شده و به صورت جداگانه به حساب هر شخص واریز می‌‌شود.</p>
           
             <div class="main3-buttons">
-                <button class="main-buttons1">درخواست فعال سازی تسهیم</button>
-                <button class="main-buttons2">بیش‌تر بدانید.<svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+                <button class="main-buttons1"><a href="#" class="main-buttons1__link"> درخواست فعال سازی تسهیم</a>
+               </button>
+                <button class="main-buttons2"><a href="#" class="main-buttons1__link"> بیش‌تر بدانید.</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
                     width: 1.2rem;
                     top: 11px;
                     right: 10.4rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></button> </div>
@@ -90,8 +124,8 @@
                 <p class="main-inside4__cap">زرین‌پلاس محصولی از زرین‌پال، فرصتی فراهم کرده است تا کسب و کارها در هر اندازه و دسته‌بندی شغلی، با در دست داشتن ابزاری قدرتمند برای وفادارسازی مشتریان و افزایش فروش محصولات خود، بتوانند کسب و کار خود را به بهترین شکل توسعه و گسترش دهند و جایگاه برترین فروشگاه منطقه را به خود اختصاص دهند.</p>
           
             <div class="main4-buttons">
-                <button class="main-buttons1">پیوستن به زرین پلاس</button>
-                <button class="main-buttons2">بیش‌تر بدانید.<svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+                <button class="main-buttons1"><a href="#" class="main-buttons1__link"> پیوستن به زرین پلاس</a></button>
+                <button class="main-buttons2"><a href="#" class="main-buttons1__link"> بیش‌تر بدانید.</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
                     width: 1.2rem;
                     top: 11px;
                     right: 10.4rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></button> </div>
@@ -136,12 +170,12 @@
     <div class="main-sugguestion">
         <h2 class="main-sugguestion__h2">به خانواده‌ی یک میلیونی زرین‌پال بپیوندید.</h2>
         <p class="main-sugguestion__cap">یک ماه رایگان، هدیه‌ی عضویت زرین‌پال به شما</p>
-        <button class="main-sugguestion__but">شروع کنید</button>
+        <button class="main-sugguestion__but"><a href="#main" class="main-sugguestion__link"> شروع کنید</a></button>
     </div>
     <div class="main-last">
         <span class="main-last__span1">پشتیبانی ۲۴ ساعته، ۷ روز هفته</span>
         <span class="main-last__span2">شماره تماس: <i> ۴۱۲۳۹-۰۲۱</i></span>
-        <span class="main-last__span3">درخواست پشتیبانی<svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
+        <span class="main-last__span3"><a href="#" class="main-last__link">درخواست پشتیبانی</a><svg xmlns="http://www.w3.org/2000/svg" fill="#28457b" viewBox="0 0 448 512" style="position: absolute;
             width: 1.2rem;
             top: 11px;
             right: 12.8rem;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/></svg></span>
@@ -149,7 +183,7 @@
     </main>
     
         <div class="container">
-            <footer class="footer">
+            <footer class="footer" id="footer">
             <div class="footer-cards">
                 <div class="footer-inside">
                 <div class="footer-card1">
@@ -304,6 +338,6 @@
     </div>
         </footer>
         </div>
-   
+   <script src="./js/js.js"></script>
   </body>
 </html>
