@@ -54,25 +54,19 @@ html::-webkit-scrollbar-track {
   /* width: 54rem; */
   backdrop-filter: saturate(180%) blur(20px);
   background-color: hsla(0, 0%, 100%, 0.72) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  width: 103%;
+  width: 100%;
   padding-bottom: 76px;
   z-index: 1;
 }
 .menuleft__icon-img {
   width: 4rem;
-  margin-top: 1rem;
-  left: 44px;
-  position: absolute;
-  top: 12px;
+  height: 4rem;
   color: #273c6e;
 }
 .header-top__menu-right {
-  position: absolute;
-  top: 26px;
-  right: 15px;
-  margin-right: 1rem;
   cursor: pointer;
+  width: 12rem;
+  height: 3rem;
 }
 .haeder-top__menu-left {
   width: 2.8rem;
@@ -103,6 +97,76 @@ html::-webkit-scrollbar-track {
   bottom: 8px;
 }
 /*
+/////////////////////
+header desktop menu
+/////////////////////
+*/
+.desktop__menu {
+  display: none;
+}
+.all-desktop-links {
+  display: flex;
+  justify-content: left;
+  height: 8rem;
+  align-items: center;
+  text-align: center;
+}
+.desktop-menu__list--flex {
+  flex-grow: 13;
+  text-align: left;
+  margin-left: 3rem;
+}
+.desktop-menu__list {
+  flex-grow: 1;
+}
+.desktop-menu__link {
+  color: #303030;
+
+  color: black;
+  font-family: "vazir-light";
+  font-size: 15px;
+}
+.header-logo {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.header-logo--1 {
+  flex-grow: 1;
+  text-align: right;
+}
+.header-logo--2 {
+  flex-grow: 1;
+  text-align: left;
+}
+.desktop-menu__list--plus {
+  z-index: 1;
+  margin: 0 15px;
+  display: none;
+  color: #303030;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.4s;
+  flex-grow: 0;
+}
+.desktop-menu__link--plus {
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  top: 0;
+
+  font-size: 14px;
+  color: #28457b !important;
+  background-color: rgba(232, 239, 254, 0.6);
+  min-width: 108px;
+
+  padding: 10px 27px;
+}
+/*
 //////////////
 header section
 //////////////
@@ -111,7 +175,7 @@ header section
   background-color: #273c6e;
   margin-right: 1rem;
   margin-left: 1rem;
-  margin-top: 1.6rem;
+  margin-top: 2rem;
   border-radius: 1rem;
   color: white;
   font-size: 2.5rem;
@@ -136,11 +200,10 @@ header section
 }
 .header-sec__cap {
   text-align: center;
-  padding-right: 7rem;
-  padding-left: 7rem;
+
   font-size: 1.6rem;
   min-width: 37vh;
-  padding-top: 1rem;
+  padding-top: 3rem;
   line-height: 3rem;
   font-family: "vazir-thin";
 }
@@ -176,6 +239,11 @@ header section
 .header-buttons2__link {
   list-style: none;
   color: white;
+}
+.header__img {
+  width: 50rem;
+  height: 53rem;
+  display: none;
 }
 /* ////////////////////////// */
 /* ////////////////////////// */
@@ -279,6 +347,46 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 
   padding: 0 1rem;
 }
+.main__firstimg {
+  text-align: center;
+}
+.main__firstimg-img {
+  width: 46rem;
+  height: 42rem;
+  display: none;
+  margin-left: 2rem;
+  margin: 0 auto;
+}
+.main__firstimg-img2 {
+  padding: 3rem 0 3rem 3rem;
+  display: none;
+  width: 46rem;
+  height: 33rem;
+  margin: 0 auto;
+  margin-left: 2rem;
+}
+.main__firstimg-img3 {
+  width: 46rem;
+  height: 43rem;
+  display: none;
+  margin: 0 auto;
+  margin-right: 2rem;
+}
+.main__firstimg-img4 {
+  width: 46rem;
+  height: 43rem;
+  display: none;
+  margin: 0 auto;
+  margin-right: 4rem;
+}
+.main__firstimg-img5 {
+  width: 46rem;
+  height: 35rem;
+  display: none;
+  margin: 0 auto;
+  margin-left: 6rem;
+}
+
 /* ////////////////////////// */
 /* ////////////////////////// */
 /* ////////////////////////// */
@@ -289,6 +397,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
   height: 9rem;
   margin-top: -3.5rem;
   position: relative;
+  top: 9.5rem;
 }
 .imgshave img {
   margin: 0 auto;
@@ -320,7 +429,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 .main-inside1 {
   text-align: center;
   line-height: 4rem;
-  padding: 0 6rem;
+  padding: 0 7rem;
 }
 .main-inside__span {
   color: #747480;
@@ -340,12 +449,14 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
   font-size: 1.5rem;
   text-align: justify;
   border-bottom: 1px solid #dfe1e4;
+  padding-bottom: 2rem;
 }
 .main-buttons1__link {
   list-style: none;
   color: black;
 }
 .main-buttons {
+  padding-top: 1.8rem;
 }
 .main-buttons1 {
   background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0
@@ -397,7 +508,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 .main-inside2 {
   text-align: center;
   line-height: 4rem;
-  padding: 0 6rem;
+  padding: 0 7rem;
   margin-top: 2rem;
 }
 .main-inside2__span {
@@ -425,7 +536,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 .main-inside3 {
   text-align: center;
   line-height: 4rem;
-  padding: 0 6rem;
+  padding: 0 7rem;
   margin-top: 2rem;
 }
 .main-inside3__span {
@@ -453,7 +564,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 .main-inside4 {
   text-align: center;
   line-height: 4rem;
-  padding: 0 6rem;
+  padding: 0 7rem;
   margin-top: 2rem;
 }
 .main-inside4__span {
@@ -481,7 +592,7 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
 .main-inside5 {
   text-align: center;
   line-height: 4rem;
-  padding: 0 6rem;
+  padding: 0 3rem;
   margin-top: 10rem;
 }
 .main-inside5__h2 {
@@ -602,9 +713,20 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
   display: flex;
   flex-direction: column;
   text-align: right;
-  padding-right: 6rem;
+  padding-right: 5rem;
 }
-
+.main-last__span1--res {
+}
+.main-last__span2--res {
+}
+.pipe {
+}
+.main-last__span2--res > i {
+  color: #21457f;
+}
+.main-last__span3--res {
+  color: #21457f;
+}
 .main-last__span1 {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
@@ -640,6 +762,18 @@ a:where(.mobile-menu__link1, .mobile-menu__link2, .mobile-menu__link3, .mobile-m
   cursor: pointer;
   white-space: nowrap;
   position: relative;
+}
+.main-last__left-svg {
+  position: absolute;
+  width: 1.2rem;
+  top: 11px;
+  right: 12.8rem;
+}
+.main-last__span1--res {
+}
+.main-last__span2--res {
+}
+.main-last__span3--res {
 }
 .main-last__link {
   list-style: none;
